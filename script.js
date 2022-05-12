@@ -55,7 +55,7 @@ function criterion2() {
     }
 
   if (listPrefChar.length === 0) {
-    alert("No characters selected. Try again!!")
+    alert("Select at least one character type. Try again!!")
     return generatePassword()
   }
 
