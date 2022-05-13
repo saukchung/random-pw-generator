@@ -19,3 +19,6 @@ Alerts are placed to guide the user if invalid choices are made.
 If both criteria are inputted correctly, the box returns a randomly generated password with the specified length and consisting of specified character types.
 
 ![The random password generator has a simple design that revolves around the text box, and the "Generate Password" button.](./assets/images/Screen%20Shot%202022-05-13%20at%201.01.04%20AM.png)
+
+
+Link: https://saukchung.github.io/random-pw-generator/
