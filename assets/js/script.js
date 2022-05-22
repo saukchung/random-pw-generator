@@ -69,7 +69,7 @@ function criterion2() {
 function generatePassword() {
 
   var pwLen = prompt("Choose the length of your password", "Any number between 8 ~ 128")
-  if (pwLen <= 7 && pwLen > 0) {
+  if (pwLen <= 7) {
     alert("Too short!!")
     return generatePassword()
   }
@@ -84,6 +84,7 @@ function generatePassword() {
     alert("Whole Numbers!!")
     return generatePassword()
   }
+
   
   var pwChar = criterion2()
   var generatedPw = []
